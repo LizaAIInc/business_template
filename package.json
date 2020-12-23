@@ -1,0 +1,42 @@
+{
+    "title": "Business landing page template",
+    "name": "lizaai_business_template",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "node_modules/.bin/gulp watch"
+    },
+    "description": "A landing page for your business with a built-in scheduler widget",
+    "keywords": [
+        "css",
+        "sass",
+        "html",
+        "responsive",
+        "theme",
+        "template"
+    ],
+    "homepage": "https://lizaai.com",
+    "license": "MIT",
+    "author": "LizaAI Inc.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/LizaAIInc/business_template.git"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "5.15.1",
+        "bootstrap": "4.5.3",
+        "jquery": "3.5.1",
+        "simple-line-icons": "2.5.5"
+    },
+    "devDependencies": {
+        "browser-sync": "2.26.13",
+        "del": "6.0.0",
+        "gulp": "4.0.2",
+        "gulp-autoprefixer": "7.0.1",
+        "gulp-clean-css": "4.3.0",
+        "gulp-header": "2.0.9",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "2.0.0",
+        "gulp-sass": "4.1.0",
+        "merge-stream": "2.0.0"
+    }
+}
